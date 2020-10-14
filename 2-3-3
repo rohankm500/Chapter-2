@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class U2_L3_Activity_Three{
+  public static void main(String[] args){
+  
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter first word");
+    String firstword = scan.nextLine();
+    System.out.println("Enter second word");
+    String secondword = scan.nextLine();
+    int result1 = (firstword.toLowerCase()).compareTo(secondword.toLowerCase());
+    int FinalResult = result1%10;
+    System.out.println("Result: " + FinalResult);
+  }
+}
