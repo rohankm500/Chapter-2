@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class U2_L3_Activity_Four{
+  public static void main(String[] args){
+  
+     Scanner scan = new Scanner(System.in);
+     System.out.println("Enter a sentence:");
+     String sentance = scan.nextLine();
+     int space = sentance.indexOf(" ");
+     System.out.print(space);
+  }
+}
