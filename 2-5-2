@@ -1,0 +1,21 @@
+import java.util.Scanner;
+import edhesive.shapes.*;
+
+public class U2_L5_Activity_Two{
+  public static void main(String[] args){
+    
+    Scanner scan = new Scanner (System.in);
+    System.out.println("Type a radius:");
+    double x = scan.nextDouble();
+    System.out.println("Type a radius:");
+    double y = scan.nextDouble();
+    System.out.println("Type a radius:");
+    double z = scan.nextDouble();
+    Circle circ= new Circle(x);
+    Rectangle rec= new Rectangle(y,z);
+    System.out.println(circ);
+    System.out.println(rec);
+    
+  
+  }
+}
