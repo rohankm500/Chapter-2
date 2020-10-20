@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class U2_L7_Activity_Two{
+  public static void main(String[] args){
+  
+    Scanner scan = new Scanner(System.in);
+    String d = null;
+    String c = null;
+    System.out.println(c + " " + d);
+    System.out.println("Enter values:");
+    int a = scan.nextInt();
+    int b = scan.nextInt();
+    double avg = (double)(((a + b)/2)%50);
+    System.out.println("Average of " + a + " and " + b + " is " + avg);
+  
+  }
+}
