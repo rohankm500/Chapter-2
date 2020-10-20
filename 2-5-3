@@ -1,0 +1,15 @@
+import java.util.Scanner;
+import edhesive.shapes.*;
+
+public class U2_L5_Activity_Three{
+  public static void main(String[] args){
+  
+    Scanner scan = new Scanner (System.in);
+    System.out.println("Type the number of sides:");
+    int x = scan.nextInt();
+    System.out.println("Type a side length:");
+    double y = scan.nextDouble();
+    RegularPolygon shape= new RegularPolygon(x,y);
+    System.out.println(shape);
+  }
+}
