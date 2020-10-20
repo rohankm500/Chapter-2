@@ -1,0 +1,24 @@
+import java.util.Scanner;
+import edhesive.shapes.*;
+
+public class U2_L6_Activity_Two{
+  public static void main(String[] args){
+  
+    Scanner scan = new Scanner (System.in);
+    System.out.println("Enter radius:");
+    double radius = scan.nextDouble();
+    Circle shape = new Circle(radius);
+    double area1 = shape.getArea();
+    System.out.println("Area: " + area1);
+    radius = radius*2;
+    System.out.println("Radius is being doubled...");
+    Circle shape2 = new Circle(radius);
+    double area2 = shape2.getArea();
+    System.out.println("Area: " + area2);
+   
+    
+    
+   
+  
+  }
+}
